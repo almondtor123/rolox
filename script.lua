@@ -190,7 +190,7 @@ local Button = Tab:CreateButton({
 
         Rayfield:Notify({
             Title = "Please notice",
-            Content = "and when you press R to disable dont touch anything",
+            Content = "and when you press R to disable dont touch anything for 5 to 10 sec",
             Duration = 6.5,
             Image = 4483362458,
             Actions = {
@@ -217,7 +217,7 @@ local Button = Tab:CreateButton({
         local checkedOnce = false
         local originalCFrame
 
-        local rotationSpeed = 30 -- Adjust the speed of rotation (degrees per second)
+        local rotationSpeed = 60 -- Adjust the speed of rotation (degrees per second)
 
         -- Function to set part's position
         local function setPartYPosition(yOffset)
